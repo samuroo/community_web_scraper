@@ -26,7 +26,7 @@ export default function App() {
     <main>
       <Calendar month={month} today={dateKey(today)} selectedDate={selectedDate}
         eventDates={eventDates} onSelectDate={setSelectedDate} onChangeMonth={changeMonth} />
-      <p className="example-note">Fictional example events · September–November 2026</p>
+      <p className="example-note">Check the original listing for event details and availability.</p>
       {selectedDate ? <EventList date={selectedDate} events={selectedEvents} />
         : <p className="empty-state">Select a date to see events.</p>}
     </main>

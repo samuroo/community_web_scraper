@@ -1,9 +1,9 @@
 # Delft event calendar
 
-A minimal React + Vite site. Its only data source is `src/data/events.json`.
-No backend, database, external APIs, accounts, or scraper.
-The ten included events are **fictional examples** across September–November
-2026. Their example.com URLs are placeholders, not real event listings.
+A minimal React + Vite site. Its only runtime data source is `src/data/events.json`.
+A separate Python scraper generates that file locally from four venue websites.
+No backend, database, external APIs, or accounts. See **Local Python scraper**
+below for setup, source status, and limitations.
 
 ## 1. Install dependencies
 
@@ -32,7 +32,7 @@ Vite if that port is busy). Stop with Ctrl+C.
 
 The calendar starts on the current month with today selected. Weeks start on
 Monday. Dots mark dates with events. Clicking a date shows its events in start
-time order, or “No events.” Browse September–November 2026 to test the examples.
+time order, or “No events.” Browse the dates in `src/data/events.json` to see events.
 Changing months clears selection; returning to the current month selects today.
 An underline marks today; a dark background marks the selected day.
 
@@ -60,9 +60,8 @@ Edit the array in `src/data/events.json`:
 - Use valid JSON: double quotes, commas between entries, no comments or trailing commas.
 - An empty array `[]` is supported. Array order does not matter.
 
-When replacing the fake events, update the example notice in `src/App.jsx` and
-description in `index.html`. A future script can generate the same JSON file.
-This version does not scrape anything. Data updates require a build/deployment.
+The Python scraper overwrites this entire file, including manual edits.
+Data updates require a new frontend build/deployment to appear on GitHub Pages.
 
 ## 4. Push to GitHub
 
@@ -142,7 +141,152 @@ src/
   styles.css
 .github/workflows/deploy.yml
 vite.config.js
+scraper/
+  run.py
+  normalize.py
+  deduplicate.py
+  fetch.py
+  parsing.py
+  requirements.txt
+  sources/
+    hal015.py
+    bebop.py
+    open_delft.py
+    delfts_brouwhuis.py
+  tests/
+    test_scraper.py
+    fixtures/
 ```
 
 Deployment follows the [Vite Pages guide](https://vite.dev/guide/static-deploy#github-pages)
 and [GitHub Pages workflow documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
+
+## Local Python scraper
+
+Use **Python 3.10 or newer**. All commands below run from the repository root.
+Python is only needed when generating data, not when viewing or hosting the site.
+
+### 1. Create a virtual environment
+
+Windows PowerShell:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
+
+macOS, Linux, or Raspberry Pi:
+
+```sh
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+If PowerShell blocks activation, skip activation and substitute
+`.\.venv\Scripts\python.exe` for `python` in the commands below.
+On Raspberry Pi OS, install `python3-venv` with the OS package manager if venv
+is unavailable. No browser or Playwright installation is required.
+
+### 2. Install Python dependencies
+
+```sh
+python -m pip install -r scraper/requirements.txt
+```
+
+Dependencies are requests, BeautifulSoup, timezone data (needed on Windows), and
+truststore for the operating system's trusted HTTPS certificates. Certificate
+verification stays enabled. Keep the OS certificate store up to date on the Pi.
+
+### 3. Generate events
+
+```sh
+python scraper/run.py
+```
+
+The runner fetches the four configured sources sequentially, normalizes entries,
+filters past starts, removes exact duplicates, and atomically replaces
+`src/data/events.json` with readable UTF-8 JSON sorted by date and start time.
+It prints counts per source, errors, duplicates removed, and the output path.
+
+The fetcher identifies itself as `DelftEventsCalendar/1.0` with this repository's
+URL. It checks robots.txt, waits at least two seconds between requests to the
+same host, honors longer crawl delays (Bebop specifies 15 seconds), and uses
+10-second connection / 30-second read timeouts. Connections are closed after
+each response because Brouwhuis drops reused connections. There are no automatic retries,
+authentication, CAPTCHA workarounds, or browser automation. A blocked or
+unavailable site is reported and skipped. Redirect targets are checked too.
+
+### 4. Check the generated JSON
+
+```sh
+python -m json.tool src/data/events.json
+git diff -- src/data/events.json
+```
+
+Check the terminal summary as well: valid JSON does not imply all sites worked.
+The scraper never substitutes fictional events for missing data.
+
+### 5. Run the React site
+
+```sh
+npm ci
+npm run dev
+```
+
+Open http://localhost:5173/community_web_scraper/. To check production, run
+`npm run build`. Publishing updated data still requires a manual commit and push
+using the existing GitHub Pages workflow. Running the scraper alone changes only
+your local JSON; it does not publish anything or use GitHub credentials.
+
+### Sources and current limitations
+
+| Source | Parsing and coverage |
+| --- | --- |
+| HAL015 | **Live verification blocked:** homepage and programme returned HTTP 429 / “Site Unavailable” during inspection on 27 September 2026. Includes a provisional text-order parser for the homepage's “Binnenkort” listings, with no guessed CSS classes. Its synthetic contract test is not proof of live HTML compatibility. Needs a real HTML fixture and verification once access returns. No entire-programme coverage is claimed. |
+| Bebop | Parses agenda entries on the public shop homepage; dated ticket links supply the year and distinguish occurrences. Membership packs are excluded. |
+| OPEN Delft | Parses all calendar entries on the agenda page. Linked event URLs provide the full date; those external pages are not fetched. `DOK in OPEN` is normalized to `OPEN Delft`. |
+| Delfts Brouwhuis | Parses the event-list metadata on `/events/`. When no individual page exists, links point to the listing's `#event-…` anchor. |
+
+The local run on 27 September 2026 wrote **60 events**: Bebop 2, OPEN Delft 53,
+and Delfts Brouwhuis 5, with 0 duplicates. HAL015 was skipped because robots.txt
+returned HTTP 429. These are results from that run, not guaranteed future counts.
+
+Dates/times use **Europe/Amsterdam**, independent of the machine's timezone.
+Only events whose advertised start has not passed are included; already-started
+events are excluded, even if still running. Missing end times become `null`.
+Missing/invalid required dates, years or start times are reported and skipped,
+not invented. Each ID hashes normalized title, date, time and venue; changing a
+URL or end time does not change the ID. Duplicate comparison uses those same four
+fields, with whitespace normalization and case folding; the first entry wins in
+the fixed source order shown above. No fuzzy matching is used.
+
+The schema has no all-day flag or end date. Multi-day listings are represented
+once on their explicit start date, without inferring additional occurrences.
+OPEN's advertised `00:00` values are retained as published. Brouwhuis's structured
+time fields take precedence over times mentioned in descriptions. Recurrences
+mentioned only in prose are not expanded. Only the inspected listing pages are
+scraped; there is no general crawler or guessed pagination.
+
+One failed source does not stop the rest: the output is a fresh snapshot of
+successful sources, so failed sources' old events are not retained. If **all**
+sources fail, the existing file is preserved and the command exits with code 1.
+An unrecognized/empty page layout is treated as a parsing error rather than
+silently assuming it has no events. A valid run containing only past events
+writes `[]`. Partial success exits with code 0 and prints a prominent warning.
+
+### Offline tests
+
+```sh
+python -m unittest discover -s scraper/tests -v
+```
+
+Tests cover each parser, normalization, duplicate removal, time filtering,
+request policy, source failures, and atomic output. They use local fixtures and
+mock HTTP calls, never live requests. Fixture provenance and the HAL015 caveat
+are documented in `scraper/tests/fixtures/README.md`. Source selectors are kept
+inside each source module, separate from `fetch_page()` and shared normalization.
+
+The output path is resolved relative to the repository, not the working
+directory. The same virtual-environment Python can therefore run the script on
+a Raspberry Pi later. No cron, automated commits, GitHub authentication, or
+scheduled scraping is configured.
