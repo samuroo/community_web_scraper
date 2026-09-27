@@ -1,0 +1,12 @@
+[
+  { "id": "example-bebop-2026-09-27-jazz", "title": "Example: Sunday Jazz", "date": "2026-09-27", "startTime": "20:00", "endTime": null, "venue": "Jazz Cafe Bebop", "url": "https://example.com/events/sunday-jazz" },
+  { "id": "example-open-2026-09-27-reading", "title": "Example: Afternoon Reading", "date": "2026-09-27", "startTime": "14:00", "endTime": "15:30", "venue": "OPEN Delft", "url": "https://example.com/events/afternoon-reading" },
+  { "id": "example-brouwhuis-2026-09-30-quiz", "title": "Example: Pub Quiz", "date": "2026-09-30", "startTime": "19:30", "endTime": "22:00", "venue": "Delfts Brouwhuis", "url": "https://example.com/events/pub-quiz" },
+  { "id": "example-hal015-2026-10-03-concert", "title": "Example: Concert", "date": "2026-10-03", "startTime": "22:00", "endTime": null, "venue": "HAL015", "url": "https://example.com/events/concert" },
+  { "id": "example-bebop-2026-10-03-jazz", "title": "Example: Live Jazz", "date": "2026-10-03", "startTime": "20:00", "endTime": null, "venue": "Jazz Cafe Bebop", "url": "https://example.com/events/live-jazz" },
+  { "id": "example-open-2026-10-07-poetry", "title": "Example: Poetry Evening", "date": "2026-10-07", "startTime": "18:30", "endTime": "20:00", "venue": "OPEN Delft", "url": "https://example.com/events/poetry" },
+  { "id": "example-brouwhuis-2026-10-11-acoustic", "title": "Example: Acoustic Afternoon", "date": "2026-10-11", "startTime": "15:00", "endTime": "17:00", "venue": "Delfts Brouwhuis", "url": "https://example.com/events/acoustic" },
+  { "id": "example-hal015-2026-10-17-dance", "title": "Example: Dance Night", "date": "2026-10-17", "startTime": "21:00", "endTime": null, "venue": "HAL015", "url": "https://example.com/events/dance" },
+  { "id": "example-open-2026-10-25-workshop", "title": "Example: Drawing Workshop", "date": "2026-10-25", "startTime": "11:00", "endTime": "13:00", "venue": "OPEN Delft", "url": "https://example.com/events/drawing" },
+  { "id": "example-bebop-2026-11-01-session", "title": "Example: Sunday Session", "date": "2026-11-01", "startTime": "19:00", "endTime": "21:00", "venue": "Jazz Cafe Bebop", "url": "https://example.com/events/session" }
+]
