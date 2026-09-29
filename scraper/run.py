@@ -20,8 +20,10 @@ if str(ROOT) not in sys.path:
 from scraper.deduplicate import deduplicate
 from scraper.normalize import AMSTERDAM, is_upcoming
 from scraper.sources import hal015, bebop, open_delft, delfts_brouwhuis
+from scraper.sources import tu_delft, theater_de_veste, koornbeurs, steck, cultuurlab
 
-SOURCES = (hal015, bebop, open_delft, delfts_brouwhuis)
+SOURCES = (hal015, bebop, open_delft, delfts_brouwhuis,
+           tu_delft, theater_de_veste, koornbeurs, steck, cultuurlab)
 OUTPUT = ROOT / "src" / "data" / "events.json"
 
 

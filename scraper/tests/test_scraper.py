@@ -55,11 +55,11 @@ class ParserTests(unittest.TestCase):
         self.assert_event(events[0], 'groover jazz sunday', '2026-10-04', '15:00', None,
                           'Delfts Brouwhuis', 'https://delftsbrouwhuis.nl/events/#event-5112')
 
-    def test_hal015_provisional_text_contract(self):
-        events = hal015.parse_page(fixture('hal015_text_contract'))
+    def test_hal015_live_html_fixture(self):
+        events = hal015.parse_page(fixture('hal015'))
         self.assertEqual(len(events), 2)
-        self.assert_event(events[0], 'Big Dave & the Dutchmen', '2026-09-27', '15:00', None,
-                          'HAL015', 'https://hal015.nl/programma/big-dave-the-dutchmen/')
+        self.assert_event(events[0], 'Het danspaleis', '2026-09-30', '14:00', None,
+                          'HAL015', 'https://hal015.nl/product/het-danspaleis/')
 
     def test_unavailable_or_changed_page_is_not_silent_success(self):
         for module in (hal015, bebop, open_delft, delfts_brouwhuis):

@@ -1,0 +1,36 @@
+{
+  "rows": [
+    {
+      "event": "Roel C. Verburg - Try out",
+      "date": "2026-10-08",
+      "info": "Zaal open: 19:30\r\nAanvang: 20:30\r\nEntree: €18,50\r\nStudenten: €15,-",
+      "ticketshop": "https://www.ticketkantoor.nl/shop/IQaNrvofDQ",
+      "cancelled": 0,
+      "timeofday": 18
+    },
+    {
+      "event": "Back to the 90's & 00's QuizAvond",
+      "date": "2026-10-09",
+      "info": "Aanvang: 20:00\r\nEntree: Fl. 22,00 of € 10,00",
+      "ticketshop": null,
+      "cancelled": 0,
+      "timeofday": 18
+    },
+    {
+      "event": "Yada Yada - Herman Brood Tribute",
+      "date": "2026-10-10",
+      "info": "Deuren open: 20.00 uur\r\nEntree: €15,-",
+      "ticketshop": "https://www.ticketkantoor.nl/shop/PpPokjCMes",
+      "cancelled": 0,
+      "timeofday": 18
+    },
+    {
+      "event": "Latin in the City",
+      "date": "2026-10-16",
+      "info": "Aanvang: 20.00 uur\r\nEinde: 0.00 uur\r\nEntree: €8,50 online tot 20:00 uur.\r\nDaarna €12,50 aan de deur",
+      "ticketshop": "https://www.ticketkantoor.nl/shop/qWNckXxLbZ",
+      "cancelled": 0,
+      "timeofday": 18
+    }
+  ]
+}

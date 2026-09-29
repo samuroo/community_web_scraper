@@ -1,34 +1,7 @@
 [
   {
-    "id": "event-ea7baad27d57579c938d",
-    "title": "Informatiepunt Digitale Overheid (IDO)",
-    "date": "2026-09-29",
-    "startTime": "10:00",
-    "endTime": "12:00",
-    "venue": "OPEN Delft",
-    "url": "https://dok.op-shop.nl/6767/informatiepunt-digitale-overheid-ido/29-09-2026"
-  },
-  {
-    "id": "event-1cd9a4ab673a7fa55d61",
-    "title": "Peutervoorlezen+",
-    "date": "2026-09-29",
-    "startTime": "10:30",
-    "endTime": "11:00",
-    "venue": "OPEN Delft",
-    "url": "https://dok.op-shop.nl/7214/peutervoorlezen-1/29-09-2026"
-  },
-  {
-    "id": "event-70a32cf001047c6d4e90",
-    "title": "Taalcafé",
-    "date": "2026-09-29",
-    "startTime": "20:00",
-    "endTime": "21:30",
-    "venue": "OPEN Delft",
-    "url": "https://dok.op-shop.nl/7280/taalcafe/29-09-2026"
-  },
-  {
-    "id": "event-7753c9ccd7080724f599",
-    "title": "Spot aan: Speurtocht!",
+    "id": "event-da2754e4abc95ee899e8",
+    "title": "Kinderboekenweek: Spot aan: Speurtocht!",
     "date": "2026-09-30",
     "startTime": "00:00",
     "endTime": "00:00",
@@ -45,6 +18,15 @@
     "url": "https://dok.op-shop.nl/7377/babylezen/30-09-2026"
   },
   {
+    "id": "event-971e231255da090ccb07",
+    "title": "Het danspaleis",
+    "date": "2026-09-30",
+    "startTime": "14:00",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/het-danspaleis/"
+  },
+  {
     "id": "event-738b82b2ad0ba10c4b81",
     "title": "Interactieve kindervoorstelling van ZieZus",
     "date": "2026-09-30",
@@ -52,6 +34,15 @@
     "endTime": "17:00",
     "venue": "OPEN Delft",
     "url": "https://dok.op-shop.nl/7064/interactieve-kindervoorstelling-van-ziezus/30-09-2026"
+  },
+  {
+    "id": "event-71b32c7bb5768270e67d",
+    "title": "Kinderboekenweek: Spot Aan! Een interactieve voorstelling van ZieZus. Sta jij op het podium?",
+    "date": "2026-09-30",
+    "startTime": "16:00",
+    "endTime": "17:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7064/spot-aan-een-interactieve-voorstelling-van-ziezus-sta-jij-op-het-podium/30-09-2026"
   },
   {
     "id": "event-f5207caf23973b1374f2",
@@ -72,8 +63,8 @@
     "url": "https://dok.op-shop.nl/7244/peutervoorlezen-1/01-10-2026"
   },
   {
-    "id": "event-cf7044f709eec9c256c7",
-    "title": "Klooibakken",
+    "id": "event-ab6c1ce22671b71b0ac2",
+    "title": "Kinderboekenweek: Klooibakken",
     "date": "2026-10-01",
     "startTime": "11:00",
     "endTime": "13:00",
@@ -90,13 +81,22 @@
     "url": "https://dok.op-shop.nl/7331/schrijfcafe/01-10-2026"
   },
   {
-    "id": "event-cb10849e842f27ae95b6",
-    "title": "Spot Aan! Naspeelworkshop",
+    "id": "event-24d242ae32d9bcc457d5",
+    "title": "Kinderboekenweek: Spot Aan! Naspeelworkshop",
     "date": "2026-10-01",
     "startTime": "16:00",
     "endTime": "17:00",
     "venue": "OPEN Delft",
     "url": "https://dok.op-shop.nl/7063/spot-aan-naspeelworkshop/01-10-2026"
+  },
+  {
+    "id": "event-f4d21367b4ac8fc41c2b",
+    "title": "Twilight Safari",
+    "date": "2026-10-01",
+    "startTime": "18:30",
+    "endTime": "20:30",
+    "venue": "TU Delft / Studium Generale",
+    "url": "https://www.tudelft.nl/evenementen/2026/sg/10-oct/twilight-safari"
   },
   {
     "id": "event-001d9b1328a40a4333d3",
@@ -106,6 +106,15 @@
     "endTime": "21:30",
     "venue": "OPEN Delft",
     "url": "https://dok.op-shop.nl/7269/silent-book-club/01-10-2026"
+  },
+  {
+    "id": "event-b2d8187fd0e81fe1ff0b",
+    "title": "Stips & Brokamp",
+    "date": "2026-10-01",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/stips-brokamp/"
   },
   {
     "id": "event-db550554d36b4972fe32",
@@ -126,6 +135,15 @@
     "url": "https://dok.op-shop.nl/7536/muziekbingo-feelgoodclub-6070/02-10-2026"
   },
   {
+    "id": "event-e9a034e46cbdf74a5961",
+    "title": "Popjam",
+    "date": "2026-10-02",
+    "startTime": "20:00",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/popjam/"
+  },
+  {
     "id": "event-81a2894b64024546938c",
     "title": "Het Blauwe Podium in OPEN",
     "date": "2026-10-03",
@@ -142,6 +160,24 @@
     "endTime": null,
     "venue": "Delfts Brouwhuis",
     "url": "https://delftsbrouwhuis.nl/events/#event-5112"
+  },
+  {
+    "id": "event-c03da05f625dab557d69",
+    "title": "Delft Vertelt #42",
+    "date": "2026-10-04",
+    "startTime": "15:00",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/delft-vertelt-42/"
+  },
+  {
+    "id": "event-6636e0102533eb647088",
+    "title": "Board Game Basement",
+    "date": "2026-10-05",
+    "startTime": "20:00",
+    "endTime": "00:00",
+    "venue": "OJV De Koornbeurs",
+    "url": "https://koornbeurs.nl/agenda/"
   },
   {
     "id": "event-22fe6680ac11c43a7da0",
@@ -162,13 +198,22 @@
     "url": "https://dok.op-shop.nl/7215/peutervoorlezen-1/06-10-2026"
   },
   {
-    "id": "event-50193af1bc7916adba4f",
-    "title": "Klooibakken",
+    "id": "event-38099ad99f7fd508d404",
+    "title": "Kinderboekenweek: Klooibakken",
     "date": "2026-10-06",
     "startTime": "11:00",
     "endTime": "13:00",
     "venue": "OPEN Delft",
     "url": "https://dok.op-shop.nl/7291/klooibakken/06-10-2026"
+  },
+  {
+    "id": "event-f15529accf7f924e867e",
+    "title": "Would you want to simulate death?",
+    "date": "2026-10-06",
+    "startTime": "12:45",
+    "endTime": "13:30",
+    "venue": "TU Delft / Studium Generale",
+    "url": "https://www.tudelft.nl/evenementen/2026/sg/10-oct/would-you-want-to-simulate-death"
   },
   {
     "id": "event-230d6e6a90a0b9789588",
@@ -189,8 +234,8 @@
     "url": "https://dok.op-shop.nl/7245/peutervoorlezen-1/08-10-2026"
   },
   {
-    "id": "event-b5863dc4c11a4f02d43e",
-    "title": "Klooibakken",
+    "id": "event-ce85a0b504dfef311ff3",
+    "title": "Kinderboekenweek: Klooibakken",
     "date": "2026-10-08",
     "startTime": "11:00",
     "endTime": "13:00",
@@ -198,8 +243,17 @@
     "url": "https://dok.op-shop.nl/7292/klooibakken/08-10-2026"
   },
   {
-    "id": "event-8c5ae4cd314cb030a24f",
-    "title": "Schrijfworkshop",
+    "id": "event-aacd908b0515188ecb8a",
+    "title": "Sci-fi in the Space Basement",
+    "date": "2026-10-08",
+    "startTime": "12:45",
+    "endTime": "14:00",
+    "venue": "TU Delft / Studium Generale",
+    "url": "https://www.tudelft.nl/evenementen/2026/sg/10-oct/sci-fi-in-the-space-basement"
+  },
+  {
+    "id": "event-c2d5561c37c3127eb717",
+    "title": "Kinderboekenweek Schrijfworkshop",
     "date": "2026-10-08",
     "startTime": "16:00",
     "endTime": "17:00",
@@ -214,6 +268,24 @@
     "endTime": "21:30",
     "venue": "OPEN Delft",
     "url": "https://dok.op-shop.nl/7523/offline-library/08-10-2026"
+  },
+  {
+    "id": "event-b6020b31e69ec04d3a73",
+    "title": "Roel C. Verburg - Try out",
+    "date": "2026-10-08",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "Cultuurlab",
+    "url": "https://www.ticketkantoor.nl/shop/IQaNrvofDQ"
+  },
+  {
+    "id": "event-903614c17ebea9a7cb43",
+    "title": "Anne & Bas | De Natte Dromen Revue | try-out",
+    "date": "2026-10-08",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/anne-bas-de-natte-dromen-revue-try-out/"
   },
   {
     "id": "event-f0137a2159c5cbbd00c2",
@@ -234,6 +306,33 @@
     "url": "https://delftsbrouwhuis.nl/events/#event-5409"
   },
   {
+    "id": "event-86ddf573d305c4baab6b",
+    "title": "Back to the 90's & 00's QuizAvond",
+    "date": "2026-10-09",
+    "startTime": "20:00",
+    "endTime": null,
+    "venue": "Cultuurlab",
+    "url": "https://cultuurlab.nl/"
+  },
+  {
+    "id": "event-a986d5605d79e87e1f6f",
+    "title": "Kelderjam",
+    "date": "2026-10-09",
+    "startTime": "20:00",
+    "endTime": "01:00",
+    "venue": "OJV De Koornbeurs",
+    "url": "https://koornbeurs.nl/agenda/"
+  },
+  {
+    "id": "event-c0fa897ea0408b00c343",
+    "title": "Kinderboekenweek: Vertelvoorstelling De Trollenkoning",
+    "date": "2026-10-10",
+    "startTime": "10:00",
+    "endTime": "11:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7297/vertelvoorstelling-de-trollenkoning/10-10-2026"
+  },
+  {
     "id": "event-fa313d39e05416dd8a94",
     "title": "Schrijver op bezoek: Mohana van den Kroonenberg",
     "date": "2026-10-10",
@@ -243,13 +342,13 @@
     "url": "https://dok.op-shop.nl/7297/schrijver-op-bezoek-mohana-van-den-kroonenberg/10-10-2026"
   },
   {
-    "id": "event-f5794b52356290e2c7ad",
-    "title": "Vertelvoorstelling De Trollenkoning",
+    "id": "event-dfc1492c5cf23a108aff",
+    "title": "Operastichting Delcanto: De gloriejaren van Rembrandt",
     "date": "2026-10-10",
-    "startTime": "10:00",
-    "endTime": "11:00",
-    "venue": "OPEN Delft",
-    "url": "https://dok.op-shop.nl/7297/vertelvoorstelling-de-trollenkoning/10-10-2026"
+    "startTime": "15:00",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/operastichting-delcanto-de-gloriejaren-van-rembrandt-3/"
   },
   {
     "id": "event-b7f8b890c403a2a6edb4",
@@ -261,6 +360,42 @@
     "url": "https://delftsbrouwhuis.nl/events/#event-5120"
   },
   {
+    "id": "event-9a9df4e329847e732acc",
+    "title": "Operastichting Delcanto: De gloriejaren van Rembrandt",
+    "date": "2026-10-10",
+    "startTime": "20:00",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/operastichting-delcanto-de-gloriejaren-van-rembrandt-2/"
+  },
+  {
+    "id": "event-221b525637d439ef4ec5",
+    "title": "Metalcafé",
+    "date": "2026-10-10",
+    "startTime": "20:00",
+    "endTime": "02:00",
+    "venue": "OJV De Koornbeurs",
+    "url": "https://koornbeurs.nl/agenda/"
+  },
+  {
+    "id": "event-059f621fc043a94b1e18",
+    "title": "Operastichting Delcanto: De gloriejaren van Rembrandt",
+    "date": "2026-10-11",
+    "startTime": "14:00",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/operastichting-delcanto-de-gloriejaren-van-rembrandt/"
+  },
+  {
+    "id": "event-4141b73d7837ecd1aef5",
+    "title": "Knipkring Delft: ontdek de kunst van het papierknippen",
+    "date": "2026-10-12",
+    "startTime": "13:30",
+    "endTime": "15:30",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7473/knipkring-delft-ontdek-de-kunst-van-het-papierknippen/12-10-2026"
+  },
+  {
     "id": "event-99f63b13ec18c025b120",
     "title": "Alzheimercafé",
     "date": "2026-10-12",
@@ -268,6 +403,24 @@
     "endTime": "21:00",
     "venue": "OPEN Delft",
     "url": "https://dok.op-shop.nl/7318/alzheimercaf/12-10-2026"
+  },
+  {
+    "id": "event-2b9f443112e588b0867c",
+    "title": "Critical Mass | Looksmaxxing? A Satirical Workshop",
+    "date": "2026-10-12",
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "venue": "TU Delft / Studium Generale",
+    "url": "https://www.tudelft.nl/evenementen/2026/sg/10-oct/h"
+  },
+  {
+    "id": "event-babe8d411ab07dfb744d",
+    "title": "Spellenavond in OPEN",
+    "date": "2026-10-12",
+    "startTime": "19:30",
+    "endTime": "21:30",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7461/spellenavond-in-open/12-10-2026"
   },
   {
     "id": "event-14c7f2a8d59ca346eb78",
@@ -315,6 +468,15 @@
     "url": "https://delftsbrouwhuis.nl/events/#event-1663"
   },
   {
+    "id": "event-f2649a0a32a8d11c0660",
+    "title": "Dominion",
+    "date": "2026-10-13",
+    "startTime": "20:00",
+    "endTime": "00:00",
+    "venue": "OJV De Koornbeurs",
+    "url": "https://koornbeurs.nl/agenda/"
+  },
+  {
     "id": "event-e0ed78f21a19fc274fb6",
     "title": "Delftse Schrijvers: Margriet de Graaf",
     "date": "2026-10-13",
@@ -342,6 +504,15 @@
     "url": "https://dok.op-shop.nl/7466/datawandeling-de-verborgen-laag-van-delft/14-10-2026"
   },
   {
+    "id": "event-140383e628a40b1348d2",
+    "title": "Sjors van der Panne – Van Boeijen tot Brel",
+    "date": "2026-10-14",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/sjors-van-der-panne-van-boeijen-tot-brel/"
+  },
+  {
     "id": "event-0214a03608e9bf72cbe1",
     "title": "Peutervoorlezen+",
     "date": "2026-10-15",
@@ -349,6 +520,15 @@
     "endTime": "11:00",
     "venue": "OPEN Delft",
     "url": "https://dok.op-shop.nl/7246/peutervoorlezen-1/15-10-2026"
+  },
+  {
+    "id": "event-c25b2753a78d2aeea0dc",
+    "title": "What should TU Delft do about Ukraine? | Joris Luyendijk",
+    "date": "2026-10-15",
+    "startTime": "20:00",
+    "endTime": "22:00",
+    "venue": "TU Delft / Studium Generale",
+    "url": "https://www.tudelft.nl/evenementen/2026/sg/10-oct/what-should-tu-delft-do-about-ukraine-joris-luyendijk"
   },
   {
     "id": "event-4159f212536001cb87cd",
@@ -369,6 +549,42 @@
     "url": "https://dok.op-shop.nl/6808/informatiepunt-digitale-overheid-ido/16-10-2026"
   },
   {
+    "id": "event-4ef750768b6350429fef",
+    "title": "Boeklancering Delft Vertelt 2",
+    "date": "2026-10-16",
+    "startTime": "16:00",
+    "endTime": "17:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7550/boeklancering-delft-vertelt-2/16-10-2026"
+  },
+  {
+    "id": "event-e0b25dacc6cf3f73ed26",
+    "title": "Latin in the City",
+    "date": "2026-10-16",
+    "startTime": "20:00",
+    "endTime": "00:00",
+    "venue": "Cultuurlab",
+    "url": "https://www.ticketkantoor.nl/shop/qWNckXxLbZ"
+  },
+  {
+    "id": "event-3260fc660353f290b3b0",
+    "title": "Guido Spek – Voor Spek En Bonen",
+    "date": "2026-10-16",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/guido-spek-voor-spek-en-bonen/"
+  },
+  {
+    "id": "event-35590004fef84db44cd8",
+    "title": "Indie-Rock Band Night",
+    "date": "2026-10-16",
+    "startTime": "20:30",
+    "endTime": "01:00",
+    "venue": "OJV De Koornbeurs",
+    "url": "https://koornbeurs.nl/agenda/"
+  },
+  {
     "id": "event-fe63b0788ae4828c3e7a",
     "title": "Cultuurbarbaren: Hossein leest: De grotteling – Benji Davis",
     "date": "2026-10-17",
@@ -387,6 +603,24 @@
     "url": "https://shop.jazzcafebebop.nl/home/biertocht-delft-herfst-2026/date/196/2026-10-17"
   },
   {
+    "id": "event-44b2487a8047be6f9d54",
+    "title": "Tijdig Tukken",
+    "date": "2026-10-17",
+    "startTime": "20:00",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/tijdig-tukken/"
+  },
+  {
+    "id": "event-855b175326681e25994c",
+    "title": "Kelderjam",
+    "date": "2026-10-17",
+    "startTime": "20:00",
+    "endTime": "01:00",
+    "venue": "OJV De Koornbeurs",
+    "url": "https://koornbeurs.nl/agenda/"
+  },
+  {
     "id": "event-b8e6058de4f965ce0291",
     "title": "Biertocht Delft | Herfst editie | 2026",
     "date": "2026-10-18",
@@ -394,6 +628,24 @@
     "endTime": "22:00",
     "venue": "Jazz Cafe Bebop",
     "url": "https://shop.jazzcafebebop.nl/home/biertocht-delft-herfst-2026/date/197/2026-10-18"
+  },
+  {
+    "id": "event-9d33ffa2aabf54182cea",
+    "title": "Ruben Hoeke Band | Tribute to the Blues",
+    "date": "2026-10-18",
+    "startTime": "15:00",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/ruben-hoeke-band-tribute-tot-the-blues/"
+  },
+  {
+    "id": "event-543d094a6c3681d6b714",
+    "title": "Cultuurbarbaren Minecraft Robots",
+    "date": "2026-10-19",
+    "startTime": "10:00",
+    "endTime": "15:15",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7500/cultuurbarbaren-minecraft-robots/19-10-2026"
   },
   {
     "id": "event-0d56f468c0d20c844981",
@@ -423,6 +675,15 @@
     "url": "https://dok.op-shop.nl/7347/cultuurbarbaren-spot-on-stip/19-10-2026"
   },
   {
+    "id": "event-6cfc2720cb1b8c6e26bc",
+    "title": "Cultuurbarbaren Workshops voor en door Cultuurbarbaren",
+    "date": "2026-10-19",
+    "startTime": "11:00",
+    "endTime": "12:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7501/cultuurbarbaren-workshops-voor-en-door-cultuurbarbaren/19-10-2026"
+  },
+  {
     "id": "event-c390cbe24f40f53c7570",
     "title": "Cultuurbarbaren: Durven tekenen!",
     "date": "2026-10-19",
@@ -441,6 +702,42 @@
     "url": "https://dok.op-shop.nl/7348/cultuurbarbaren-spot-on-stip/19-10-2026"
   },
   {
+    "id": "event-de849fe6d69d1907cd6f",
+    "title": "Cultuurbarbaren: Sportslim (TU Delft Science Centre)",
+    "date": "2026-10-19",
+    "startTime": "12:00",
+    "endTime": "15:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7513/cultuurbarbaren-sportslim-tu-delft-science-centre/19-10-2026"
+  },
+  {
+    "id": "event-a5a7d281b1801f2deed4",
+    "title": "Cultuurbarbaren Workshops voor en door Cultuurbarbaren",
+    "date": "2026-10-19",
+    "startTime": "13:00",
+    "endTime": "14:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7503/cultuurbarbaren-workshops-voor-en-door-cultuurbarbaren/19-10-2026"
+  },
+  {
+    "id": "event-8224094ff04e7b4f75b0",
+    "title": "Cultuurbarbaren: Voorstelling De blauwe kiekendief",
+    "date": "2026-10-19",
+    "startTime": "15:00",
+    "endTime": "15:30",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7520/cultuurbarbaren-voorstelling-de-blauwe-kiekendief/19-10-2026"
+  },
+  {
+    "id": "event-7c457a663208f13e6b6e",
+    "title": "Cultuurbarbaren Minecraft Robots",
+    "date": "2026-10-20",
+    "startTime": "10:00",
+    "endTime": "15:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7517/cultuurbarbaren-minecraft-robots/20-10-2026"
+  },
+  {
     "id": "event-6116d2b1323e67e0e70d",
     "title": "Cultuurbarbaren: Kim leest: Boer Boris, dans met mij! – Ted van Lieshout",
     "date": "2026-10-20",
@@ -448,6 +745,15 @@
     "endTime": "11:00",
     "venue": "OPEN Delft",
     "url": "https://dok.op-shop.nl/7361/cultuurbarbaren-kim-leest-boer-boris-dans-met-mij-ted-van-lieshout/20-10-2026"
+  },
+  {
+    "id": "event-a3c46ae06c6a7f925926",
+    "title": "Cultuurbarbaren: Sportslim (TU Delft Science Centre)",
+    "date": "2026-10-20",
+    "startTime": "10:00",
+    "endTime": "15:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7514/cultuurbarbaren-sportslim-tu-delft-science-centre/20-10-2026"
   },
   {
     "id": "event-8e407fc74f33ed3c3fe4",
@@ -468,6 +774,42 @@
     "url": "https://dok.op-shop.nl/7217/peutervoorlezen-1/20-10-2026"
   },
   {
+    "id": "event-95653c7d14fd4d7b200b",
+    "title": "Cultuurbarbaren Workshops voor en door Cultuurbarbaren",
+    "date": "2026-10-20",
+    "startTime": "11:00",
+    "endTime": "12:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7504/cultuurbarbaren-workshops-voor-en-door-cultuurbarbaren/20-10-2026"
+  },
+  {
+    "id": "event-ca1e39053ed7e5c0fa58",
+    "title": "Janos en de Walvis | Wie Walvis 6+",
+    "date": "2026-10-20",
+    "startTime": "11:30",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/janos-en-de-walvis-wie-walvis/"
+  },
+  {
+    "id": "event-798a07152a8a7a7cf0df",
+    "title": "Cultuurbarbaren Workshops voor en door Cultuurbarbaren",
+    "date": "2026-10-20",
+    "startTime": "13:00",
+    "endTime": "14:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7505/cultuurbarbaren-workshops-voor-en-door-cultuurbarbaren/20-10-2026"
+  },
+  {
+    "id": "event-c0e008666422a10d785e",
+    "title": "Janos en de walvis | Wie Walvis",
+    "date": "2026-10-20",
+    "startTime": "14:30",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/janos-en-de-walvis-wie-walvis-2/"
+  },
+  {
     "id": "event-b6e11a95f872356dfebe",
     "title": "Cultuurbarbaren: Silent Cinema - Sing",
     "date": "2026-10-20",
@@ -477,6 +819,15 @@
     "url": "https://dok.op-shop.nl/7362/cultuurbarbaren-silent-cinema-sing/20-10-2026"
   },
   {
+    "id": "event-f0dd4ab9d69ac0e0475e",
+    "title": "Cultuurbarbaren Minecraft Robots",
+    "date": "2026-10-21",
+    "startTime": "10:00",
+    "endTime": "15:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7518/cultuurbarbaren-minecraft-robots/21-10-2026"
+  },
+  {
     "id": "event-d41a6123eb2f3a357923",
     "title": "Cultuurbarbaren: Amy leest: Wonder – Mark Janssen",
     "date": "2026-10-21",
@@ -484,6 +835,15 @@
     "endTime": "11:00",
     "venue": "OPEN Delft",
     "url": "https://dok.op-shop.nl/7365/cultuurbarbaren-amy-leest-wonder-mark-janssen/21-10-2026"
+  },
+  {
+    "id": "event-71d1610c945f24ff8e52",
+    "title": "Cultuurbarbaren: Sportslim (TU Delft Science Centre)",
+    "date": "2026-10-21",
+    "startTime": "10:00",
+    "endTime": "15:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7515/cultuurbarbaren-sportslim-tu-delft-science-centre/21-10-2026"
   },
   {
     "id": "event-ea8b80009569a66a99e3",
@@ -504,6 +864,294 @@
     "url": "https://dok.op-shop.nl/7366/cultuurbarbaren-superhelden-gezocht/21-10-2026"
   },
   {
+    "id": "event-dcd26a60c8a5d874b4d0",
+    "title": "Cultuurbarbaren Workshops voor en door Cultuurbarbaren",
+    "date": "2026-10-21",
+    "startTime": "11:00",
+    "endTime": "12:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7506/cultuurbarbaren-workshops-voor-en-door-cultuurbarbaren/21-10-2026"
+  },
+  {
+    "id": "event-9edfeea43785cf6908ee",
+    "title": "Cultuurbarbaren: Superhelden gezocht!",
+    "date": "2026-10-21",
+    "startTime": "11:00",
+    "endTime": "12:15",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7367/cultuurbarbaren-superhelden-gezocht/21-10-2026"
+  },
+  {
+    "id": "event-082310b784e220fd513b",
+    "title": "Cultuurbarbaren: Spot On DJ!",
+    "date": "2026-10-21",
+    "startTime": "11:15",
+    "endTime": "12:15",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7512/cultuurbarbaren-spot-on-dj-let-op-voor-deze-vak-activiteit-betaal-je-eur8/21-10-2026"
+  },
+  {
+    "id": "event-b994d3445d692de4e993",
+    "title": "Cultuurbarbaren Workshops voor en door Cultuurbarbaren",
+    "date": "2026-10-21",
+    "startTime": "13:00",
+    "endTime": "14:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7507/cultuurbarbaren-workshops-voor-en-door-cultuurbarbaren/21-10-2026"
+  },
+  {
+    "id": "event-e549c554754bff2ef243",
+    "title": "Cultuurbarbaren: Circus Pavlof in de spotlight!",
+    "date": "2026-10-21",
+    "startTime": "14:30",
+    "endTime": "15:30",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7370/cultuurbarbaren-circus-pavlof-in-de-spotlight/21-10-2026"
+  },
+  {
+    "id": "event-6d5f1089cab79b393827",
+    "title": "Cultuurbarbaren: Silent disco",
+    "date": "2026-10-21",
+    "startTime": "15:00",
+    "endTime": "16:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7371/cultuurbarbaren-silent-disco/21-10-2026"
+  },
+  {
+    "id": "event-0e3b1ed164d048f04331",
+    "title": "Cultuurbarbaren Minecraft Robots",
+    "date": "2026-10-22",
+    "startTime": "10:00",
+    "endTime": "15:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7519/cultuurbarbaren-minecraft-robots/22-10-2026"
+  },
+  {
+    "id": "event-aba67e59f5528b82771e",
+    "title": "Cultuurbarbaren: Ellen leest: Herrie in de tent – Harmen van Straaten",
+    "date": "2026-10-22",
+    "startTime": "10:00",
+    "endTime": "11:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7372/cultuurbarbaren-ellen-leest-herrie-in-de-tent-harmen-van-straaten/22-10-2026"
+  },
+  {
+    "id": "event-7e6afdc4ed1c7b30a8df",
+    "title": "Cultuurbarbaren: Sportslim (TU Delft Science Centre)",
+    "date": "2026-10-22",
+    "startTime": "10:00",
+    "endTime": "15:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7516/cultuurbarbaren-sportslim-tu-delft-science-centre/22-10-2026"
+  },
+  {
+    "id": "event-0adcab69c557335ce1ff",
+    "title": "Cultuurbarbaren: Spot On DJ!",
+    "date": "2026-10-22",
+    "startTime": "10:00",
+    "endTime": "11:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7357/cultuurbarbaren-spot-on-dj-let-op-voor-deze-vak-activiteit-betaal-je-eur8/22-10-2026"
+  },
+  {
+    "id": "event-f1ccd4b9e41856f2ff32",
+    "title": "Cultuurbarbaren: Superhelden gezocht!",
+    "date": "2026-10-22",
+    "startTime": "10:00",
+    "endTime": "11:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7368/cultuurbarbaren-superhelden-gezocht/22-10-2026"
+  },
+  {
+    "id": "event-c61cf9824c4679557aee",
+    "title": "Peutervoorlezen+",
+    "date": "2026-10-22",
+    "startTime": "10:30",
+    "endTime": "11:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7247/peutervoorlezen-1/22-10-2026"
+  },
+  {
+    "id": "event-5dc83c5adf2ed2f0f2d9",
+    "title": "Cultuurbarbaren Workshops voor en door Cultuurbarbaren",
+    "date": "2026-10-22",
+    "startTime": "11:00",
+    "endTime": "12:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7508/cultuurbarbaren-workshops-voor-en-door-cultuurbarbaren/22-10-2026"
+  },
+  {
+    "id": "event-f45923316bedc0104994",
+    "title": "Cultuurbarbaren: Superhelden gezocht!",
+    "date": "2026-10-22",
+    "startTime": "11:00",
+    "endTime": "12:15",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7369/cultuurbarbaren-superhelden-gezocht/22-10-2026"
+  },
+  {
+    "id": "event-d6a8d0a8ca26fd1975af",
+    "title": "Cultuurbarbaren: Spot On DJ!",
+    "date": "2026-10-22",
+    "startTime": "11:15",
+    "endTime": "12:15",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7358/cultuurbarbaren-spot-on-dj-let-op-voor-deze-vak-activiteit-betaal-je-eur8/22-10-2026"
+  },
+  {
+    "id": "event-51f4136f8636541da499",
+    "title": "Cultuurbarbaren Workshops voor en door Cultuurbarbaren",
+    "date": "2026-10-22",
+    "startTime": "13:00",
+    "endTime": "14:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7509/cultuurbarbaren-workshops-voor-en-door-cultuurbarbaren/22-10-2026"
+  },
+  {
+    "id": "event-3b27315c5a722d00d3dc",
+    "title": "Cultuurbarbaren: Voorstelling Acrobot",
+    "date": "2026-10-22",
+    "startTime": "15:00",
+    "endTime": "15:30",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7521/cultuurbarbaren-voorstelling-acrobot/22-10-2026"
+  },
+  {
+    "id": "event-9d1cfa4b48682e6c1318",
+    "title": "Veteranencafé",
+    "date": "2026-10-22",
+    "startTime": "19:00",
+    "endTime": null,
+    "venue": "Cultuurlab",
+    "url": "https://cultuurlab.nl/"
+  },
+  {
+    "id": "event-994ae0430e4389129d73",
+    "title": "Cultuurbarbaren: Durven tekenen!",
+    "date": "2026-10-23",
+    "startTime": "10:00",
+    "endTime": "11:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7354/cultuurbarbaren-durven-tekenen/23-10-2026"
+  },
+  {
+    "id": "event-a2ef57b80695f1e97e49",
+    "title": "Cultuurbarbaren: Spot On DJ!",
+    "date": "2026-10-23",
+    "startTime": "10:00",
+    "endTime": "11:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7359/cultuurbarbaren-spot-on-dj-let-op-voor-deze-vak-activiteit-betaal-je-eur8/23-10-2026"
+  },
+  {
+    "id": "event-0231d888233a4143d8a8",
+    "title": "Cultuurbarbaren: Spot on Stip!",
+    "date": "2026-10-23",
+    "startTime": "10:00",
+    "endTime": "11:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7352/cultuurbarbaren-spot-on-stip-let-op-voor-deze-vak-activiteit-betaal-je-eur8/23-10-2026"
+  },
+  {
+    "id": "event-024a31df30253c54f825",
+    "title": "Informatiepunt Digitale Overheid (IDO)",
+    "date": "2026-10-23",
+    "startTime": "10:00",
+    "endTime": "12:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/6809/informatiepunt-digitale-overheid-ido/23-10-2026"
+  },
+  {
+    "id": "event-d4132b7977e8dba7821f",
+    "title": "Cultuurbarbaren Workshops voor en door Cultuurbarbaren",
+    "date": "2026-10-23",
+    "startTime": "11:00",
+    "endTime": "12:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7510/cultuurbarbaren-workshops-voor-en-door-cultuurbarbaren/23-10-2026"
+  },
+  {
+    "id": "event-9312b1ba39fe189f5304",
+    "title": "Cultuurbarbaren: Durven tekenen!",
+    "date": "2026-10-23",
+    "startTime": "11:00",
+    "endTime": "12:15",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7355/cultuurbarbaren-durven-tekenen/23-10-2026"
+  },
+  {
+    "id": "event-af24546b466e76e11f38",
+    "title": "Cultuurbarbaren: Spot On DJ!",
+    "date": "2026-10-23",
+    "startTime": "11:15",
+    "endTime": "12:15",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7360/cultuurbarbaren-spot-on-dj-let-op-voor-deze-vak-activiteit-betaal-je-eur8/23-10-2026"
+  },
+  {
+    "id": "event-720f5adfe6be81477d53",
+    "title": "Cultuurbarbaren: Spot on Stip!",
+    "date": "2026-10-23",
+    "startTime": "11:15",
+    "endTime": "12:15",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7349/cultuurbarbaren-spot-on-stip-let-op-voor-deze-vak-activiteit-betaal-je-eur8/23-10-2026"
+  },
+  {
+    "id": "event-212483b555fcc4344abe",
+    "title": "Cultuurbarbaren Workshops voor en door Cultuurbarbaren",
+    "date": "2026-10-23",
+    "startTime": "13:00",
+    "endTime": "14:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7511/cultuurbarbaren-workshops-voor-en-door-cultuurbarbaren/23-10-2026"
+  },
+  {
+    "id": "event-c476a1451c994e4c3390",
+    "title": "Cultuurbarbaren: Olifant en krokodil",
+    "date": "2026-10-23",
+    "startTime": "15:00",
+    "endTime": "15:30",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7373/cultuurbarbaren-olifant-en-krokodil/23-10-2026"
+  },
+  {
+    "id": "event-b74695fec6ea817e6b95",
+    "title": "Night of the Witch",
+    "date": "2026-10-23",
+    "startTime": "19:00",
+    "endTime": "22:00",
+    "venue": "TU Delft / Studium Generale",
+    "url": "https://www.tudelft.nl/evenementen/2026/sg/10-oct/night-of-the-witch"
+  },
+  {
+    "id": "event-c5323be8cb51444925f2",
+    "title": "RUIS",
+    "date": "2026-10-23",
+    "startTime": "20:00",
+    "endTime": "02:00",
+    "venue": "OJV De Koornbeurs",
+    "url": "https://koornbeurs.nl/agenda/"
+  },
+  {
+    "id": "event-aa8c7395169eb6f4a5b8",
+    "title": "Cultuurbarbaren: Amy leest: Peter en de Wolf – Sergei Prokofjev – Met muziek van Krashna Musika!",
+    "date": "2026-10-24",
+    "startTime": "10:00",
+    "endTime": "11:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7374/cultuurbarbaren-amy-leest-peter-en-de-wolf-sergei-prokofjev-met-muziek-van-krashna-musika/24-10-2026"
+  },
+  {
+    "id": "event-eba0f93d37a016f6e3a8",
+    "title": "Digitale Huiskamer",
+    "date": "2026-10-24",
+    "startTime": "13:00",
+    "endTime": "15:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7155/digitale-huiskamer/24-10-2026"
+  },
+  {
     "id": "event-fb96917bc486086d0e22",
     "title": "CoderDojo in OPEN oktober",
     "date": "2026-10-24",
@@ -511,6 +1159,51 @@
     "endTime": "16:00",
     "venue": "OPEN Delft",
     "url": "https://dok.op-shop.nl/7170/coderdojo-in-open-oktober/24-10-2026"
+  },
+  {
+    "id": "event-ca93c313e87255a2b108",
+    "title": "Spellenavond in OPEN",
+    "date": "2026-10-26",
+    "startTime": "19:30",
+    "endTime": "21:30",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7462/spellenavond-in-open/26-10-2026"
+  },
+  {
+    "id": "event-a8c22caa65a27f2c0c20",
+    "title": "Informatiepunt Digitale Overheid (IDO)",
+    "date": "2026-10-27",
+    "startTime": "10:00",
+    "endTime": "12:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/6771/informatiepunt-digitale-overheid-ido/27-10-2026"
+  },
+  {
+    "id": "event-84188218c4bab35532e2",
+    "title": "Peutervoorlezen+",
+    "date": "2026-10-27",
+    "startTime": "10:30",
+    "endTime": "11:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7218/peutervoorlezen-1/27-10-2026"
+  },
+  {
+    "id": "event-633e7a4b9421a356ff07",
+    "title": "OPEN: Architectuurcafé lezing",
+    "date": "2026-10-27",
+    "startTime": "20:00",
+    "endTime": "21:30",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7307/open-architectuurcafe-lezing/27-10-2026"
+  },
+  {
+    "id": "event-93152e8661133d27b1d1",
+    "title": "Taalcafé",
+    "date": "2026-10-27",
+    "startTime": "20:00",
+    "endTime": "21:30",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7283/taalcafe/27-10-2026"
   },
   {
     "id": "event-46db59c75b82b7d3b946",
@@ -522,6 +1215,69 @@
     "url": "https://dok.op-shop.nl/7378/babylezen/28-10-2026"
   },
   {
+    "id": "event-85454c6fd5bfa7c3faa2",
+    "title": "Peutervoorlezen+",
+    "date": "2026-10-29",
+    "startTime": "10:30",
+    "endTime": "11:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7248/peutervoorlezen-1/29-10-2026"
+  },
+  {
+    "id": "event-76da4b0087a82ea781b6",
+    "title": "Dorine Wiersma | Gaandeweg",
+    "date": "2026-10-29",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/dorine-wiersma-gaandeweg/"
+  },
+  {
+    "id": "event-f4158fe08c9ac46d3198",
+    "title": "Informatiepunt Digitale Overheid (IDO)",
+    "date": "2026-10-30",
+    "startTime": "10:00",
+    "endTime": "12:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/6810/informatiepunt-digitale-overheid-ido/30-10-2026"
+  },
+  {
+    "id": "event-3b1edfc0f5fdc8afe69d",
+    "title": "Delft Vertelt: de geschiedenis leeft",
+    "date": "2026-10-30",
+    "startTime": "19:30",
+    "endTime": "21:30",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7548/delft-vertelt-de-geschiedenis-leeft/30-10-2026"
+  },
+  {
+    "id": "event-46fdd06a3f77c6e0dcdc",
+    "title": "VROEG PIEKEN | 30 oktober",
+    "date": "2026-10-30",
+    "startTime": "20:00",
+    "endTime": "00:00",
+    "venue": "STECK",
+    "url": "https://shop.steck.nl/home/vroeg-pieken-3/date/208/2026-10-30"
+  },
+  {
+    "id": "event-9d6f703319dd39827239",
+    "title": "Pubquiz",
+    "date": "2026-10-30",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "Cultuurlab",
+    "url": "https://www.ticketkantoor.nl/shop/OHhfwGdjPk"
+  },
+  {
+    "id": "event-08e3ec9cef5849346118",
+    "title": "Schrijf geschiedenis: vertel over jouw werk",
+    "date": "2026-10-31",
+    "startTime": "10:30",
+    "endTime": "17:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7549/schrijf-geschiedenis-vertel-over-jouw-werk/31-10-2026"
+  },
+  {
     "id": "event-31605c80b2561d290141",
     "title": "Living Library",
     "date": "2026-10-31",
@@ -531,6 +1287,69 @@
     "url": "https://dok.op-shop.nl/6587/living-library/31-10-2026"
   },
   {
+    "id": "event-23998ab247cf61269be6",
+    "title": "GrijsGedraaid",
+    "date": "2026-10-31",
+    "startTime": "16:00",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/grijsgedraaid/"
+  },
+  {
+    "id": "event-aff03887af6fcf298054",
+    "title": "Trio Cor Nuiten XL zingt Cohen & Co",
+    "date": "2026-11-01",
+    "startTime": "15:00",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/trio-cor-nuiten-xl-zingt-cohen-co/"
+  },
+  {
+    "id": "event-8de97baf280226ad2799",
+    "title": "Informatiepunt Digitale Overheid (IDO)",
+    "date": "2026-11-03",
+    "startTime": "10:00",
+    "endTime": "12:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/6772/informatiepunt-digitale-overheid-ido/03-11-2026"
+  },
+  {
+    "id": "event-f8e544ba2167d319b55a",
+    "title": "Peutervoorlezen+",
+    "date": "2026-11-03",
+    "startTime": "10:30",
+    "endTime": "11:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7219/peutervoorlezen-1/03-11-2026"
+  },
+  {
+    "id": "event-ccfe6f1114f4205c14f8",
+    "title": "Taalcafé",
+    "date": "2026-11-03",
+    "startTime": "20:00",
+    "endTime": "21:30",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7284/taalcafe/03-11-2026"
+  },
+  {
+    "id": "event-7f5ba26e12e60258f785",
+    "title": "Spinvis & Saartje van Camp | Duo",
+    "date": "2026-11-04",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/spinvis-saartje-van-camp-duo/"
+  },
+  {
+    "id": "event-e94fea17504fa18bd6f0",
+    "title": "Peutervoorlezen+",
+    "date": "2026-11-05",
+    "startTime": "10:30",
+    "endTime": "11:00",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7249/peutervoorlezen-1/05-11-2026"
+  },
+  {
     "id": "event-0379d668b4819f3c1e0d",
     "title": "FResh Hop Bierweekend",
     "date": "2026-11-05",
@@ -538,5 +1357,365 @@
     "endTime": null,
     "venue": "Delfts Brouwhuis",
     "url": "https://delftsbrouwhuis.nl/events/#event-5916"
+  },
+  {
+    "id": "event-2608c0d94fe1c73f0b6a",
+    "title": "Schrijfcafé",
+    "date": "2026-11-05",
+    "startTime": "13:30",
+    "endTime": "15:30",
+    "venue": "OPEN Delft",
+    "url": "https://dok.op-shop.nl/7332/schrijfcafe/05-11-2026"
+  },
+  {
+    "id": "event-b227c0dd02f46ad5c3b0",
+    "title": "60e editie Cameretten Festival – De try-outs",
+    "date": "2026-11-05",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/60e-editie-cameretten-festival-de-try-outs/"
+  },
+  {
+    "id": "event-b3e328a4367d9e4e1928",
+    "title": "60e editie Cameretten Festival – De try-outs",
+    "date": "2026-11-06",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/60e-editie-cameretten-festival-de-try-outs-2/"
+  },
+  {
+    "id": "event-554b67f9efb90471a960",
+    "title": "Jubileumconcert FOcalicious: Dit zijn wij!",
+    "date": "2026-11-07",
+    "startTime": "15:00",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/jubileumconcert-focalicious-dit-zijn-wij/"
+  },
+  {
+    "id": "event-97ab53c9a1ccee66abe0",
+    "title": "Jubileumconcert FOcalicious: Dit zijn wij!",
+    "date": "2026-11-07",
+    "startTime": "20:00",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/focalicious-jubileumconcert/"
+  },
+  {
+    "id": "event-53b3f6b61c2ef36a3372",
+    "title": "Mingler: Let's Mingle & Dance - Singles Only",
+    "date": "2026-11-07",
+    "startTime": "20:00",
+    "endTime": "01:00",
+    "venue": "STECK",
+    "url": "https://shop.steck.nl/home/mingler-lets-mingle-and-dance-singles-only/date/207/2026-11-07"
+  },
+  {
+    "id": "event-0171b21e26c17d5b2681",
+    "title": "Blue Autumn Jamboree",
+    "date": "2026-11-08",
+    "startTime": "14:30",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/blue-autumn-jamboree/"
+  },
+  {
+    "id": "event-e7f66d35c0d5c074b80b",
+    "title": "Print with Wastewater",
+    "date": "2026-11-11",
+    "startTime": "14:00",
+    "endTime": "17:00",
+    "venue": "TU Delft / Studium Generale",
+    "url": "https://www.tudelft.nl/evenementen/2026/sg/11-nov/print-with-wastewater"
+  },
+  {
+    "id": "event-5d278fcdbf16e8dec1d5",
+    "title": "Redux Party",
+    "date": "2026-11-13",
+    "startTime": "20:00",
+    "endTime": "02:00",
+    "venue": "OJV De Koornbeurs",
+    "url": "https://koornbeurs.nl/agenda/"
+  },
+  {
+    "id": "event-b22874ebdbba682947a1",
+    "title": "Sabrina Starke | Weather the Storm",
+    "date": "2026-11-13",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/sabrina-starke-weather-the-storm/"
+  },
+  {
+    "id": "event-dfcd3848b0e879153519",
+    "title": "Carrousel du Monde | Autumn party with global dance & music",
+    "date": "2026-11-14",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/carrousel-du-monde-autumn-party-with-global-dance-music/"
+  },
+  {
+    "id": "event-6e6b87a830cedff0467e",
+    "title": "Metalcafé",
+    "date": "2026-11-14",
+    "startTime": "20:30",
+    "endTime": "23:30",
+    "venue": "OJV De Koornbeurs",
+    "url": "https://koornbeurs.nl/agenda/"
+  },
+  {
+    "id": "event-0446554b475f3146983f",
+    "title": "Robert Simpson",
+    "date": "2026-11-17",
+    "startTime": "20:30",
+    "endTime": "22:30",
+    "venue": "TU Delft / Studium Generale",
+    "url": "https://www.tudelft.nl/evenementen/2026/sg/11-nov/robert-simpson"
+  },
+  {
+    "id": "event-6366e25e1b1a1c9c3097",
+    "title": "R.I.P BITS & PIECES | Jan Boiten, Jan van Eerd, Hans Dagelet en Laurens de Boer",
+    "date": "2026-11-18",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/r-i-p-bits-pieces-jan-boiten-jan-van-eerd-hans-dagelet-en-laurens-de-boer/"
+  },
+  {
+    "id": "event-bd20082c68afcc760316",
+    "title": "Riza Tisserand + Toby Kooiman + Tim Hartog + Aniek",
+    "date": "2026-11-19",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "Cultuurlab",
+    "url": "https://cultuurlab.stager.co/shop/comedylab"
+  },
+  {
+    "id": "event-5df2f3da1e7cfeb6d995",
+    "title": "Latin in the City",
+    "date": "2026-11-20",
+    "startTime": "20:00",
+    "endTime": "00:00",
+    "venue": "Cultuurlab",
+    "url": "https://www.ticketkantoor.nl/shop/wDVusISYlh"
+  },
+  {
+    "id": "event-f5f825108c8cf3591fc7",
+    "title": "Dubbel cabaretprogramma: Maaike Dirkje Hop en Farida Laan",
+    "date": "2026-11-20",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/dubbel-cabaretprogramma-maaike-dirkje-hop-en-farida-laan/"
+  },
+  {
+    "id": "event-5228f193bfa08e8141ed",
+    "title": "StationtoStation | The Serious Moonlight Tour",
+    "date": "2026-11-21",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/stationtostation-the-serious-moonlight-tour/"
+  },
+  {
+    "id": "event-8783fb662bff18567360",
+    "title": "Beginning",
+    "date": "2026-11-23",
+    "startTime": "20:30",
+    "endTime": "22:00",
+    "venue": "TU Delft / Studium Generale",
+    "url": "https://www.tudelft.nl/evenementen/2026/sg/11-nov/beginning"
+  },
+  {
+    "id": "event-f4204648933c558e4d3f",
+    "title": "Veteranencafé",
+    "date": "2026-11-26",
+    "startTime": "19:00",
+    "endTime": null,
+    "venue": "Cultuurlab",
+    "url": "https://cultuurlab.nl/"
+  },
+  {
+    "id": "event-274d2cbe8b7c96a589f2",
+    "title": "Pubquiz",
+    "date": "2026-11-27",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "Cultuurlab",
+    "url": "https://www.ticketkantoor.nl/shop/eQTBhLVxld"
+  },
+  {
+    "id": "event-cdeed220bdd6931bc074",
+    "title": "Tennessee Bob",
+    "date": "2026-11-28",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/tennessee-bob/"
+  },
+  {
+    "id": "event-94808a2099a7d50de2eb",
+    "title": "Dance Club | Back to the Dancefloor with DJ Doc Rogers",
+    "date": "2026-12-05",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/dance-club-back-to-the-dancefloor-with-dj-doc-rogers/"
+  },
+  {
+    "id": "event-9031b036800d61434769",
+    "title": "Ellen ten Damme | Medusa (try-out)",
+    "date": "2026-12-10",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/ellen-ten-damme-medusa-try-out/"
+  },
+  {
+    "id": "event-a8e9e4fe7497f8cc6796",
+    "title": "Metalcafé",
+    "date": "2026-12-12",
+    "startTime": "20:30",
+    "endTime": "01:00",
+    "venue": "OJV De Koornbeurs",
+    "url": "https://koornbeurs.nl/agenda/"
+  },
+  {
+    "id": "event-dd5d04c87b829766e217",
+    "title": "Delft Vertelt #43",
+    "date": "2026-12-13",
+    "startTime": "15:00",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/delft-vertelt-43/"
+  },
+  {
+    "id": "event-30d661d163438d2028b9",
+    "title": "Latin in the City",
+    "date": "2026-12-18",
+    "startTime": "20:00",
+    "endTime": "00:00",
+    "venue": "Cultuurlab",
+    "url": "https://www.ticketkantoor.nl/shop/DSSdYFkLgb"
+  },
+  {
+    "id": "event-9dc70ae1cb8acd0f6097",
+    "title": "Pubquiz",
+    "date": "2026-12-29",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "Cultuurlab",
+    "url": "https://www.ticketkantoor.nl/shop/yJEHhRLYuz"
+  },
+  {
+    "id": "event-a34626b31e98c31b78a5",
+    "title": "Felix van den Berg + Jeroen Leenders + Tim Kroezen + Janneke de Bijl",
+    "date": "2027-01-21",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "Cultuurlab",
+    "url": "https://cultuurlab.stager.co/shop/comedylab"
+  },
+  {
+    "id": "event-80e7443bfa38d3127a71",
+    "title": "Wouter Monden | Met blokjes",
+    "date": "2027-01-21",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/wouter-monden-met-blokjes/"
+  },
+  {
+    "id": "event-8c7009aef7301c0ba661",
+    "title": "De Meneertjes",
+    "date": "2027-01-30",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/de-meneertjes/"
+  },
+  {
+    "id": "event-3ef80ddff23b9ee36709",
+    "title": "Annick Boer | Vol Erin!",
+    "date": "2027-02-04",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/annick-boer-vol-erin/"
+  },
+  {
+    "id": "event-61b9c11faec1cf34bdb5",
+    "title": "Met een Vloek en een Zucht | Burger Koekoek",
+    "date": "2027-03-05",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/met-een-vloek-en-een-zucht-burger-koekoek/"
+  },
+  {
+    "id": "event-45bf129bd48d40354f27",
+    "title": "PLOFKRAAK",
+    "date": "2027-03-06",
+    "startTime": "18:45",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/plofkraak/"
+  },
+  {
+    "id": "event-5ed293a122ce9420d426",
+    "title": "Fuad Hassen + Luuk Weggemans + Alina Sharipova + Victor Luis van Es",
+    "date": "2027-03-11",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "Cultuurlab",
+    "url": "https://cultuurlab.stager.co/shop/comedylab"
+  },
+  {
+    "id": "event-93d64c927747a79be429",
+    "title": "LUDIQUE! | Hartstocht",
+    "date": "2027-03-12",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/ludique-hartstocht/"
+  },
+  {
+    "id": "event-c60d715113ef4587716e",
+    "title": "Fabian Franciscus | Is het leven al begonnen?",
+    "date": "2027-03-17",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/fabian-francisicus-is-het-leven-al-begonnen/"
+  },
+  {
+    "id": "event-af999e0163a20b1c8935",
+    "title": "Gerschwin Bonevacia | BLAUWZWART",
+    "date": "2027-04-01",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/gerschwin-bonevacia-blauwzwart/"
+  },
+  {
+    "id": "event-fe3089ff4a15dc5e4556",
+    "title": "DJAM! | Joep Pelt, Bounaly Traoré and special guest Afel Bocoum",
+    "date": "2027-05-06",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "HAL015",
+    "url": "https://hal015.nl/product/djam-joep-pelt-bounaly-traore-and-special-guest-afel-bocoum/"
+  },
+  {
+    "id": "event-5173a2ecd72e9db9be38",
+    "title": "Chris Verlaan + Vincent Geers + Céline Schrama + Guest",
+    "date": "2027-05-13",
+    "startTime": "20:30",
+    "endTime": null,
+    "venue": "Cultuurlab",
+    "url": "https://cultuurlab.stager.co/shop/comedylab"
   }
 ]

@@ -6,7 +6,7 @@ from urllib.robotparser import RobotFileParser
 
 import requests
 
-USER_AGENT = "DelftEventsCalendar/1.0 (+https://github.com/samuroo/community_web_scraper)"
+USER_AGENT = "DelftEventsCalendar/1.0 (+https://github.com/samuroo/event-scraper)"
 TIMEOUT = (10, 30)
 
 
