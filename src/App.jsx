@@ -1,15 +1,25 @@
 import { useState } from 'react';
 import Calendar from './components/Calendar.jsx';
 import EventList from './components/EventList.jsx';
+import SourceFilter from './components/SourceFilter.jsx';
+import { sources } from './data/sources.js';
 import events from './data/events.json';
 import { dateKey } from './dates.js';
-
-const eventDates = new Set(events.map((event) => event.date));
 
 export default function App() {
   const [today] = useState(() => new Date());
   const [month, setMonth] = useState(() => new Date(today.getFullYear(), today.getMonth(), 1));
   const [selectedDate, setSelectedDate] = useState(() => dateKey(today));
+  const [selectedSources, setSelectedSources] = useState(() => new Set(sources.map((source) => source.venue)));
+
+  function toggleSource(venue) {
+    setSelectedSources((previous) => {
+      const next = new Set(previous);
+      if (next.has(venue)) next.delete(venue);
+      else next.add(venue);
+      return next;
+    });
+  }
 
   function changeMonth(offset) {
     const next = new Date(month.getFullYear(), month.getMonth() + offset, 1);
@@ -18,17 +28,22 @@ export default function App() {
       ? dateKey(today) : null);
   }
 
-  const selectedEvents = events
+  const visibleEvents = events.filter((event) => selectedSources.has(event.venue));
+  const eventDates = new Set(visibleEvents.map((event) => event.date));
+  const selectedEvents = visibleEvents
     .filter((event) => event.date === selectedDate)
     .sort((a, b) => a.startTime.localeCompare(b.startTime));
 
   return (
     <main>
-      <Calendar month={month} today={dateKey(today)} selectedDate={selectedDate}
-        eventDates={eventDates} onSelectDate={setSelectedDate} onChangeMonth={changeMonth} />
-      <p className="example-note">Check the original listing for event details and availability.</p>
-      {selectedDate ? <EventList date={selectedDate} events={selectedEvents} />
-        : <p className="empty-state">Select a date to see events.</p>}
+      <SourceFilter sources={sources} selectedSources={selectedSources} onToggle={toggleSource} />
+      <div className="calendar-content">
+        <Calendar month={month} today={dateKey(today)} selectedDate={selectedDate}
+          eventDates={eventDates} onSelectDate={setSelectedDate} onChangeMonth={changeMonth} />
+        <p className="example-note">Check the original listing for event details and availability.</p>
+        {selectedDate ? <EventList date={selectedDate} events={selectedEvents} />
+          : <p className="empty-state">Select a date to see events.</p>}
+      </div>
     </main>
   );
 }

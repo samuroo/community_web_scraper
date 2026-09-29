@@ -1,7 +1,18 @@
 :root { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #252525; background: #fff; font-synthesis: none; line-height: 1.5; }
 * { box-sizing: border-box; }
 body { margin: 0; }
-main { width: min(100% - 24px, 480px); margin: 32px auto; }
+main { width: min(100% - 24px, 720px); margin: 32px auto; display: grid; grid-template-columns: 208px minmax(0, 480px); gap: 32px; }
+.calendar-content { min-width: 0; }
+.source-filter { margin: 0; padding: 0; border: 0; min-width: 0; }
+.source-filter legend { padding: 0; margin-bottom: 12px; font-size: 12px; font-weight: 600; letter-spacing: .06em; }
+.source-filter label { display: flex; align-items: center; gap: 8px; min-height: 36px; font-size: 14px; cursor: pointer; }
+.source-filter input { width: 16px; height: 16px; margin: 0; flex-shrink: 0; accent-color: #303030; }
+.source-filter input:focus-visible { outline: 2px solid #333; outline-offset: 3px; }
+@media (max-width: 640px) {
+  main { width: min(100% - 24px, 480px); grid-template-columns: minmax(0, 1fr); gap: 20px; }
+  .source-filter { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 12px; }
+  .source-filter label { min-height: 44px; }
+}
 button, a { -webkit-tap-highlight-color: transparent; }
 button { font: inherit; color: inherit; cursor: pointer; background: #fff; border: 1px solid #dedede; border-radius: 3px; }
 button:hover { background: #f3f3f3; }

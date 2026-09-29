@@ -5,6 +5,9 @@
 A community event web scraper for Delft, collecting local events into a simple
 calendar. The project may later expand to Den Haag and possibly Rotterdam.
 
+Use the Sources checkboxes to filter both the event list and calendar dots.
+All sources start selected; on mobile the checklist appears above the calendar.
+
 ## Project structure
 
 ```text
